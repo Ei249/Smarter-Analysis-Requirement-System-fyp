@@ -1,0 +1,517 @@
+[2025-06-13 08:15:27.310]: entering -- org.netbeans.installer.Installer.main():61
+[2025-06-13 08:15:27.314]: initializing the installer engine
+[2025-06-13 08:15:27.314]:     entering -- org.netbeans.installer.Installer.<init>():96
+[2025-06-13 08:15:27.314]:     ... initializing ErrorHandler
+[2025-06-13 08:15:27.315]:     ... end of ErrorHandler initialization
+[2025-06-13 08:15:27.315]:     exiting -- org.netbeans.installer.Installer.<init>():96
+[2025-06-13 08:15:27.315]:     entering -- org.netbeans.installer.Installer.<init>():97
+[2025-06-13 08:15:27.315]:     dumping target system information
+[2025-06-13 08:15:27.315]:         system properties:
+[2025-06-13 08:15:27.319]:             awt.toolkit => sun.awt.windows.WToolkit
+[2025-06-13 08:15:27.319]:             file.encoding => Cp1252
+[2025-06-13 08:15:27.320]:             file.encoding.pkg => sun.io
+[2025-06-13 08:15:27.320]:             file.separator => \
+[2025-06-13 08:15:27.320]:             java.awt.graphicsenv => sun.awt.Win32GraphicsEnvironment
+[2025-06-13 08:15:27.320]:             java.awt.printerjob => sun.awt.windows.WPrinterJob
+[2025-06-13 08:15:27.320]:             java.class.path => C:\Users\ngzhe\AppData\Local\Temp\\NBI16645.tmp\uninstall.jar
+[2025-06-13 08:15:27.320]:             java.class.version => 52.0
+[2025-06-13 08:15:27.320]:             java.endorsed.dirs => C:\Program Files\Java\New folder\lib\endorsed
+[2025-06-13 08:15:27.320]:             java.ext.dirs => C:\Program Files\Java\New folder\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+[2025-06-13 08:15:27.320]:             java.home => C:\Program Files\Java\New folder
+[2025-06-13 08:15:27.320]:             java.io.tmpdir => C:\Users\ngzhe\AppData\Local\Temp\
+[2025-06-13 08:15:27.320]:             java.library.path => C:\Program Files\Java\New folder\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\ngzhe\AppData\Local\Microsoft\WindowsApps;C:\Users\ngzhe\AppData\Local\Programs\Microsoft VS Code\bin;C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64;C:\Users\ngzhe\AppData\Local\ComposerSetup\bin;C:\Users\ngzhe\AppData\Roaming\Composer\vendor\bin;C:\Users\ngzhe\AppData\Roaming\npm;.
+[2025-06-13 08:15:27.320]:             java.runtime.name => Java(TM) SE Runtime Environment
+[2025-06-13 08:15:27.320]:             java.runtime.version => 1.8.0_251-b08
+[2025-06-13 08:15:27.320]:             java.specification.name => Java Platform API Specification
+[2025-06-13 08:15:27.320]:             java.specification.vendor => Oracle Corporation
+[2025-06-13 08:15:27.320]:             java.specification.version => 1.8
+[2025-06-13 08:15:27.320]:             java.vendor => Oracle Corporation
+[2025-06-13 08:15:27.320]:             java.vendor.url => http://java.oracle.com/
+[2025-06-13 08:15:27.320]:             java.vendor.url.bug => http://bugreport.sun.com/bugreport/
+[2025-06-13 08:15:27.320]:             java.version => 1.8.0_251
+[2025-06-13 08:15:27.320]:             java.vm.info => mixed mode
+[2025-06-13 08:15:27.321]:             java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+[2025-06-13 08:15:27.321]:             java.vm.specification.name => Java Virtual Machine Specification
+[2025-06-13 08:15:27.321]:             java.vm.specification.vendor => Oracle Corporation
+[2025-06-13 08:15:27.321]:             java.vm.specification.version => 1.8
+[2025-06-13 08:15:27.321]:             java.vm.vendor => Oracle Corporation
+[2025-06-13 08:15:27.321]:             java.vm.version => 25.251-b08
+[2025-06-13 08:15:27.321]:             line.separator => 
+[2025-06-13 08:15:27.321]:             netbeans.default_cachedir_root => C:\Users\ngzhe\AppData\Local\NetBeans\Cache
+[2025-06-13 08:15:27.321]:             netbeans.default_userdir_root => C:\Users\ngzhe\AppData\Roaming\NetBeans
+[2025-06-13 08:15:27.321]:             os.arch => amd64
+[2025-06-13 08:15:27.321]:             os.name => Windows 10
+[2025-06-13 08:15:27.321]:             os.version => 10.0
+[2025-06-13 08:15:27.321]:             path.separator => ;
+[2025-06-13 08:15:27.321]:             sun.arch.data.model => 64
+[2025-06-13 08:15:27.321]:             sun.boot.class.path => C:\Program Files\Java\New folder\lib\resources.jar;C:\Program Files\Java\New folder\lib\rt.jar;C:\Program Files\Java\New folder\lib\sunrsasign.jar;C:\Program Files\Java\New folder\lib\jsse.jar;C:\Program Files\Java\New folder\lib\jce.jar;C:\Program Files\Java\New folder\lib\charsets.jar;C:\Program Files\Java\New folder\lib\jfr.jar;C:\Program Files\Java\New folder\classes
+[2025-06-13 08:15:27.321]:             sun.boot.library.path => C:\Program Files\Java\New folder\bin
+[2025-06-13 08:15:27.321]:             sun.cpu.endian => little
+[2025-06-13 08:15:27.321]:             sun.cpu.isalist => amd64
+[2025-06-13 08:15:27.321]:             sun.desktop => windows
+[2025-06-13 08:15:27.321]:             sun.io.unicode.encoding => UnicodeLittle
+[2025-06-13 08:15:27.323]:             sun.java.command => org.netbeans.installer.Installer --target nb-all 21.0.0.240215.0 --force-uninstall
+[2025-06-13 08:15:27.323]:             sun.java.launcher => SUN_STANDARD
+[2025-06-13 08:15:27.323]:             sun.jnu.encoding => Cp1252
+[2025-06-13 08:15:27.323]:             sun.management.compiler => HotSpot 64-Bit Tiered Compilers
+[2025-06-13 08:15:27.323]:             sun.os.patch.level => 
+[2025-06-13 08:15:27.323]:             user.country => US
+[2025-06-13 08:15:27.323]:             user.dir => C:\Windows\ImmersiveControlPanel
+[2025-06-13 08:15:27.323]:             user.home => C:\Users\ngzhe
+[2025-06-13 08:15:27.323]:             user.language => en
+[2025-06-13 08:15:27.323]:             user.name => ngzhe
+[2025-06-13 08:15:27.323]:             user.script => 
+[2025-06-13 08:15:27.323]:             user.timezone => Asia/Singapore
+[2025-06-13 08:15:27.323]:             user.variant => 
+[2025-06-13 08:15:27.323]:     ... end of target system information
+[2025-06-13 08:15:27.323]:     exiting -- org.netbeans.installer.Installer.<init>():97
+[2025-06-13 08:15:27.362]:     loading jni library
+[2025-06-13 08:15:27.362]:         library resource path: native/jnilib/windows/windows-x64.dll
+[2025-06-13 08:15:27.619]:         library file path: C:\Users\ngzhe\AppData\Local\Temp\nbi-4232161977463634764.tmp
+[2025-06-13 08:15:27.626]:         ... successfully loaded the library
+[2025-06-13 08:15:27.629]:     entering -- org.netbeans.installer.Installer.<init>():102
+[2025-06-13 08:15:27.629]:     parsing command-line arguments
+[2025-06-13 08:15:27.636]:         ... parsing arguments : [--target], [nb-all], [21.0.0.240215.0], [--force-uninstall]
+[2025-06-13 08:15:27.642]:         parsing command line parameter "--target"
+[2025-06-13 08:15:27.642]:             target component:
+[2025-06-13 08:15:27.642]:             ... uid:     nb-all
+[2025-06-13 08:15:27.642]:             ... version: 21.0.0.240215.0
+[2025-06-13 08:15:27.642]:         parsing command line parameter "--force-uninstall"
+[2025-06-13 08:15:27.642]:     ... finished parsing command line arguments
+[2025-06-13 08:15:27.642]:     exiting -- org.netbeans.installer.Installer.<init>():102
+[2025-06-13 08:15:27.642]:     entering -- org.netbeans.installer.Installer.<init>():103
+[2025-06-13 08:15:27.642]:     loading engine properties
+[2025-06-13 08:15:27.642]:         loading engine properties
+[2025-06-13 08:15:27.643]:             loading nbi.wizard.ui.swing.frame.width.default => 600
+[2025-06-13 08:15:27.643]:             loading nbi.wizard.ui.swing.frame.width.gtk => 704
+[2025-06-13 08:15:27.643]:             loading nbi.wizard.ui.swing.frame.head.right.image => resource:org/netbeans/installer/wizard/wizard-description-background.png
+[2025-06-13 08:15:27.643]:             loading nbi.wizard.ui.swing.frame.minimum.width.nimbus => 624
+[2025-06-13 08:15:27.643]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.xp => 450
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.height.nimbus => 512
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.title.prefix => Apache NetBeans IDE Installer
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.width.nimbus => 624
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.width.win.xp => 600
+[2025-06-13 08:15:27.644]:             loading nbi.overall.license.jdk5.resource => org/netbeans/installer/product/components/netbeans-license-jdk5.txt
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.classic => 442
+[2025-06-13 08:15:27.644]:             loading nbi.overall.license.jtb.resource => org/netbeans/installer/product/components/netbeans-license-jtb.txt
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.width.default => 600
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.motif => 470
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.aqua => 480
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.xp => 600
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.height.aqua => 480
+[2025-06-13 08:15:27.644]:             loading nbi.overall.license.jdk6.resource => org/netbeans/installer/product/components/netbeans-license-jdk6.txt
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.height.default => 500
+[2025-06-13 08:15:27.644]:             loading nbi.product.suggest.install => true
+[2025-06-13 08:15:27.644]:             loading nbi.overall.license.mysql.resource => org/netbeans/installer/product/components/netbeans-license-mysql.txt
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.icon => resource:org/netbeans/installer/wizard/wizard-icon.png
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.height.gtk => 528
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.width.aqua => 640
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.height.motif => 470
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.width.motif => 624
+[2025-06-13 08:15:27.644]:             loading nbi.product.remove.corrupted.products.silently => true
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.classic => 588
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.welcome.left.bottom.image => resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2025-06-13 08:15:27.644]:             loading nbi.overall.license.resource => org/netbeans/installer/product/components/netbeans-license.txt
+[2025-06-13 08:15:27.644]:             loading nbi.macosx.application.directory.name => NetBeans IDE Installer
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.gtk => 528
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.width.metal => 624
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.width.motif => 624
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.metal => 470
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.minimum.width.gtk => 704
+[2025-06-13 08:15:27.644]:             loading nbi.junit.license.resource => org/netbeans/installer/product/components/junit-license.txt
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.width.metal => 624
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.win.classic => 442
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.win.xp => 450
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.default => 500
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.height.nimbus => 512
+[2025-06-13 08:15:27.644]:             loading nbi.overall.license.javafx.resource => org/netbeans/installer/product/components/netbeans-license-javafx.txt
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.title.pattern => {0}
+[2025-06-13 08:15:27.644]:             loading nbi.wizard.ui.swing.frame.width.win.classic => 588
+[2025-06-13 08:15:27.645]:             loading nbi.wizard.ui.swing.frame.minimum.width.aqua => 640
+[2025-06-13 08:15:27.645]:             loading nbi.wizard.ui.swing.frame.minimum.height.metal => 470
+[2025-06-13 08:15:27.645]:     ... finished loading engine properties
+[2025-06-13 08:15:27.645]:     exiting -- org.netbeans.installer.Installer.<init>():103
+[2025-06-13 08:15:27.645]:     initializing the local directory
+[2025-06-13 08:15:27.645]:         ... custom local directory was not specified, using the default
+[2025-06-13 08:15:27.645]:         ... local directory: C:\Users\ngzhe\.nbi
+[2025-06-13 08:15:27.645]:     ... finished initializing local directory
+[2025-06-13 08:15:27.694]:     entering -- org.netbeans.installer.Installer.<init>():109
+[2025-06-13 08:15:27.694]:     ... initializing DownloadManager
+[2025-06-13 08:15:27.704]:         file not exist, queue is empty!
+[2025-06-13 08:15:27.718]:     ... end of initializing DownloadManager
+[2025-06-13 08:15:27.719]:     exiting -- org.netbeans.installer.Installer.<init>():109
+[2025-06-13 08:15:27.719]:     entering -- org.netbeans.installer.Installer.<init>():110
+[2025-06-13 08:15:27.719]:     ... initializing Registry
+[2025-06-13 08:15:27.735]:     ... end of initializing ErrorHandler
+[2025-06-13 08:15:27.736]:     exiting -- org.netbeans.installer.Installer.<init>():110
+[2025-06-13 08:15:27.736]:     entering -- org.netbeans.installer.Installer.<init>():111
+[2025-06-13 08:15:27.736]:     ... initializing Wizard
+[2025-06-13 08:15:27.893]:         ... loading registry from resource:data/registry.xml
+[2025-06-13 08:15:27.915]:         entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-06-13 08:15:27.915]:         validating previous installations
+[2025-06-13 08:15:27.915]:         ... validating installations finished
+[2025-06-13 08:15:27.915]:         exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-06-13 08:15:27.920]:         Can`t load message in bundle org.netbeans.installer.wizard.components.panels.netbeans.Bundle for key NPrISP.installation.folders using [sun.misc.Launcher$AppClassLoader@5c647e05] classloader
+[2025-06-13 08:15:27.928]:     ... end of initializing Wizard
+[2025-06-13 08:15:27.929]:     exiting -- org.netbeans.installer.Installer.<init>():111
+[2025-06-13 08:15:27.929]:     creating lock file
+[2025-06-13 08:15:27.929]:         ... created lock file: C:\Users\ngzhe\.nbi\.nbilock
+[2025-06-13 08:15:27.929]:     finished creating lock file
+[2025-06-13 08:15:27.929]: ... finished initializing the engine
+[2025-06-13 08:15:27.929]: exiting -- org.netbeans.installer.Installer.main():61
+[2025-06-13 08:15:27.929]: entering -- org.netbeans.installer.Installer.main():61
+[2025-06-13 08:15:27.929]: starting the installer
+[2025-06-13 08:15:27.932]:     ... initializing look and feel
+[2025-06-13 08:15:27.933]:         ... custom look and feel class name was not specified, using system default
+[2025-06-13 08:15:28.058]:         ... class name: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+[2025-06-13 08:15:28.058]:         ... get installed L&Fs
+[2025-06-13 08:15:28.087]:         ... set specified L&F
+[2025-06-13 08:15:28.119]:         ... check headless
+[2025-06-13 08:15:28.120]:         ... creating JFileChooser object to check possible issues with UI
+[2025-06-13 08:15:28.706]:         ... getting default Toolkit to check possible issues with UI
+[2025-06-13 08:15:28.706]:         ... creating JProgressBar object to check possible issues with UI
+[2025-06-13 08:15:28.710]:         ... all UI checks done
+[2025-06-13 08:15:28.710]:         ... L&F is set
+[2025-06-13 08:15:28.710]:     ... initializing L&F finished
+[2025-06-13 08:15:28.826]:     NameResolver - to parse &Help!
+[2025-06-13 08:15:28.829]:     NameResolver - to parse < &Back
+[2025-06-13 08:15:28.829]:     NameResolver - to parse &Next >
+[2025-06-13 08:15:28.831]:     NameResolver - to parse Cancel
+[2025-06-13 08:15:28.832]:     NameResolver - to parse Configuring the Installer...
+[2025-06-13 08:15:28.833]:     NameResolver - to parse Configuring the Installer...
+[2025-06-13 08:15:28.842]:     NameResolver - to parse Configuring the Installer...
+[2025-06-13 08:15:28.842]:     NameResolver - to parse Configuring the Installer...
+[2025-06-13 08:15:28.842]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2025-06-13 08:15:28.879]:     NameResolver - to parse Configuring the Installer...
+[2025-06-13 08:15:28.879]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2025-06-13 08:15:28.880]: ... finished starting the installer
+[2025-06-13 08:15:28.880]: exiting -- org.netbeans.installer.Installer.main():61
+[2025-06-13 08:15:28.880]: NameResolver - to parse Configuring the Installer...
+[2025-06-13 08:15:28.882]: entering -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2025-06-13 08:15:28.882]: initializing product registry
+[2025-06-13 08:15:28.882]:     entering -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2025-06-13 08:15:28.882]:     initializing product registry properties
+[2025-06-13 08:15:28.882]:         initializing local product cache directory
+[2025-06-13 08:15:28.883]:         ... C:\Users\ngzhe\.nbi\product-cache
+[2025-06-13 08:15:28.883]:         initializing local product registry file
+[2025-06-13 08:15:28.883]:             ... C:\Users\ngzhe\.nbi\registry.xml
+[2025-06-13 08:15:28.883]:             initializing local product registry stub uri
+[2025-06-13 08:15:28.883]:             ... resource:org/netbeans/installer/product/default-registry.xml
+[2025-06-13 08:15:28.883]:             initializing bundled product registry uri
+[2025-06-13 08:15:28.883]:             ... resource:data/registry.xml
+[2025-06-13 08:15:28.884]:             initializing product registry schema uri
+[2025-06-13 08:15:28.884]:             ... resource:org/netbeans/installer/product/registry.xsd
+[2025-06-13 08:15:28.884]:             initializing remote product registries uris
+[2025-06-13 08:15:28.884]:             initializing state file schema uri
+[2025-06-13 08:15:28.884]:             ... resource:org/netbeans/installer/product/state-file.xsd
+[2025-06-13 08:15:28.884]:             initializing default state file uri
+[2025-06-13 08:15:28.884]:             ... resource:org/netbeans/installer/product/default-state-file.xml
+[2025-06-13 08:15:28.884]:             initializing target platform
+[2025-06-13 08:15:28.884]:             ... windows-x64
+[2025-06-13 08:15:28.884]:     initializing product registry properties
+[2025-06-13 08:15:28.884]:     exiting -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2025-06-13 08:15:28.886]:     ... loading registry from file:/C:/Users/ngzhe/.nbi/registry.xml
+[2025-06-13 08:15:28.918]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-06-13 08:15:28.918]:     validating previous installations
+[2025-06-13 08:15:28.939]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.944]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.947]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.951]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.955]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.957]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.957]:     ... validating installations finished
+[2025-06-13 08:15:28.957]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-06-13 08:15:28.957]:     ... loading registry from resource:data/registry.xml
+[2025-06-13 08:15:28.964]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-06-13 08:15:28.964]:     validating previous installations
+[2025-06-13 08:15:28.964]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.964]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.965]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.965]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.966]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.966]:         NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.967]:     ... validating installations finished
+[2025-06-13 08:15:28.967]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-06-13 08:15:28.968]: ... product registry initialization complete
+[2025-06-13 08:15:28.969]: exiting -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2025-06-13 08:15:28.979]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:28.991]: NameResolver - to parse &Help!
+[2025-06-13 08:15:28.992]: NameResolver - to parse < &Back
+[2025-06-13 08:15:28.993]: NameResolver - to parse &Uninstall
+[2025-06-13 08:15:28.993]: NameResolver - to parse Cancel
+[2025-06-13 08:15:28.993]: NameResolver - to parse &Uninstall
+[2025-06-13 08:15:28.994]: NameResolver - to parse The following components will be uninstalled:
+[2025-06-13 08:15:28.994]: NameResolver - to parse Total Installation Size:
+[2025-06-13 08:15:28.995]: NameResolver - to parse Total Download Size:
+[2025-06-13 08:15:29.027]: Roots : C:\, D:\
+[2025-06-13 08:15:29.027]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.028]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.028]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.029]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.029]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.029]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.030]: NameResolver - to parse Summary
+[2025-06-13 08:15:29.030]: NameResolver - to parse Summary
+[2025-06-13 08:15:29.030]: Roots : C:\, D:\
+[2025-06-13 08:15:29.030]: NameResolver - to parse Summary
+[2025-06-13 08:15:29.030]: NameResolver - to parse Summary
+[2025-06-13 08:15:29.031]: NameResolver - to parse Click Uninstall to start the uninstallation.
+[2025-06-13 08:15:29.031]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.031]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.032]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.032]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.033]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.033]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:29.041]: NameResolver - to parse Summary
+[2025-06-13 08:15:29.041]: NameResolver - to parse Click Uninstall to start the uninstallation.
+[2025-06-13 08:15:31.036]: Roots : C:\, D:\
+[2025-06-13 08:15:31.038]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:31.038]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:31.039]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:31.039]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:31.039]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:31.040]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:33.050]: Roots : C:\, D:\
+[2025-06-13 08:15:33.053]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:33.053]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:33.054]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:33.054]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:33.054]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:33.054]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:35.063]: Roots : C:\, D:\
+[2025-06-13 08:15:35.064]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:35.065]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:35.066]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:35.067]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:35.067]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:35.068]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:37.074]: Roots : C:\, D:\
+[2025-06-13 08:15:37.077]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:37.078]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:37.079]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:37.080]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:37.080]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:37.081]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:39.094]: Roots : C:\, D:\
+[2025-06-13 08:15:39.095]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:39.096]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:39.097]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:39.098]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:39.099]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:39.099]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:41.110]: Roots : C:\, D:\
+[2025-06-13 08:15:41.111]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:41.112]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:41.113]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:41.114]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:41.116]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:41.117]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:43.126]: Roots : C:\, D:\
+[2025-06-13 08:15:43.127]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:43.128]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:43.129]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:43.130]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:43.130]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:43.132]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:45.149]: Roots : C:\, D:\
+[2025-06-13 08:15:45.151]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:45.152]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:45.153]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:45.155]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:45.155]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:45.156]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:47.172]: Roots : C:\, D:\
+[2025-06-13 08:15:47.174]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:47.175]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:47.176]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:47.177]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:47.177]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:47.178]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:49.186]: Roots : C:\, D:\
+[2025-06-13 08:15:49.187]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:49.188]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:49.188]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:49.190]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:49.192]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:49.192]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:51.205]: Roots : C:\, D:\
+[2025-06-13 08:15:51.207]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:51.207]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:51.208]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:51.209]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:51.209]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:51.210]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:53.213]: Roots : C:\, D:\
+[2025-06-13 08:15:53.214]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:53.216]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:53.217]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:53.219]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:53.220]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:53.221]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:55.236]: Roots : C:\, D:\
+[2025-06-13 08:15:55.236]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:55.237]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:55.237]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:55.238]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:55.239]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:55.240]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:57.253]: Roots : C:\, D:\
+[2025-06-13 08:15:57.255]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:57.256]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:57.256]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:57.257]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:57.257]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:57.258]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:59.272]: Roots : C:\, D:\
+[2025-06-13 08:15:59.274]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:59.275]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:59.275]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:59.276]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:59.277]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:15:59.277]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:01.281]: Roots : C:\, D:\
+[2025-06-13 08:16:01.282]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:01.283]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:01.284]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:01.284]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:01.285]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:01.286]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:03.288]: Roots : C:\, D:\
+[2025-06-13 08:16:03.289]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:03.290]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:03.291]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:03.293]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:03.294]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:03.295]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:05.302]: Roots : C:\, D:\
+[2025-06-13 08:16:05.303]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:05.303]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:05.306]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:05.306]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:05.306]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:05.308]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:07.322]: Roots : C:\, D:\
+[2025-06-13 08:16:07.325]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:07.326]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:07.327]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:07.328]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:07.330]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:07.331]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:09.334]: Roots : C:\, D:\
+[2025-06-13 08:16:09.335]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:09.336]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:09.337]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:09.338]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:09.339]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:09.340]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:11.347]: Roots : C:\, D:\
+[2025-06-13 08:16:11.347]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:11.349]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:11.350]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:11.350]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:11.351]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:11.353]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:13.363]: Roots : C:\, D:\
+[2025-06-13 08:16:13.364]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:13.365]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:13.367]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:13.367]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:13.368]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:13.368]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:15.379]: Roots : C:\, D:\
+[2025-06-13 08:16:15.380]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:15.380]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:15.382]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:15.383]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:15.384]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:15.384]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:17.392]: Roots : C:\, D:\
+[2025-06-13 08:16:17.394]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:17.394]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:17.396]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:17.396]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:17.397]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:17.398]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:19.412]: Roots : C:\, D:\
+[2025-06-13 08:16:19.413]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:19.414]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:19.415]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:19.417]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:19.417]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:19.418]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:21.432]: Roots : C:\, D:\
+[2025-06-13 08:16:21.433]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:21.434]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:21.436]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:21.437]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:21.437]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:21.438]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:23.445]: Roots : C:\, D:\
+[2025-06-13 08:16:23.446]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:23.447]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:23.448]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:23.448]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:23.449]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:23.449]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:25.458]: Roots : C:\, D:\
+[2025-06-13 08:16:25.460]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:25.460]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:25.461]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:25.462]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:25.463]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:25.463]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:27.466]: Roots : C:\, D:\
+[2025-06-13 08:16:27.467]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:27.468]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:27.469]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:27.469]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:27.470]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:27.471]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:29.480]: Roots : C:\, D:\
+[2025-06-13 08:16:29.482]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:29.482]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:29.483]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:29.484]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:29.485]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:29.485]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:31.498]: Roots : C:\, D:\
+[2025-06-13 08:16:31.499]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:31.500]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:31.500]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:31.500]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:31.500]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:31.500]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:33.510]: Roots : C:\, D:\
+[2025-06-13 08:16:33.511]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:33.512]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:33.512]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:33.512]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:33.513]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:33.513]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:35.527]: Roots : C:\, D:\
+[2025-06-13 08:16:35.528]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:35.528]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:35.528]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:35.529]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:35.529]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:35.529]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:37.540]: Roots : C:\, D:\
+[2025-06-13 08:16:37.540]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:37.541]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:37.541]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:37.541]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:37.541]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:37.541]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:39.554]: Roots : C:\, D:\
+[2025-06-13 08:16:39.554]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:39.554]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:39.554]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:39.555]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:39.555]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:39.555]: NameResolver - to parse C:\Program Files\NetBeans-21
+[2025-06-13 08:16:41.290]: NameResolver - to parse Cancel
+[2025-06-13 08:16:41.290]: NameResolver - to parse Are you sure you want to cancel?
+[2025-06-13 08:16:41.290]: ... showing Yes/No dialog
+[2025-06-13 08:16:41.290]:     title: Cancel
+[2025-06-13 08:16:41.290]:     message: Are you sure you want to cancel?
+[2025-06-13 08:16:43.244]: ... dialog closed, choice : yes
