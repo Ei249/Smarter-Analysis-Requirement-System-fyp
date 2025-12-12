@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1000",
+        "text": "The system shall allow new users (students and tutors) to register by providing necessary details like name, email, password, and role.",
+        "type": "Functional",
+        "system_type": "Education",
+        "submitted_by": "qq1234",
+        "timestamp": "2025-12-09 03:40:04",
+        "status": "approved",
+        "votes": {
+            "approve": [
+                "admin",
+                "admin_sarah",
+                "admin_mike"
+            ],
+            "reject": []
+        },
+        "final_decision_reason": "Majority Voted Approve"
+    },
+    {
+        "id": "1001",
+        "text": "The system shall allow new users (students and tutors) to register by providing necessary details like name, email, password, and role.\r\n\r\n",
+        "type": "Functional",
+        "system_type": "Education",
+        "submitted_by": "qq1234",
+        "timestamp": "2025-12-09 04:06:49",
+        "status": "approved",
+        "final_decision_reason": "Majority Voted Approve",
+        "votes": {
+            "approve": [
+                "admin",
+                "admin_sarah",
+                "admin_mike"
+            ],
+            "reject": []
+        }
+    },
+    {
+        "id": "1002",
+        "text": "The system shall allow new users (students and tutors) to register by providing necessary details like name, email, password, and role.\r\n",
+        "type": "Functional",
+        "system_type": "Education",
+        "submitted_by": "qq1234",
+        "timestamp": "2025-12-09 04:17:35",
+        "status": "approved",
+        "final_decision_reason": "Majority Voted Approve",
+        "votes": {
+            "approve": [
+                "admin",
+                "admin_mike",
+                "admin_sarah"
+            ],
+            "reject": []
+        }
+    },
+    {
+        "id": "1003",
+        "text": "The system shall allow new users (students and tutors) to register by providing necessary details like name, email, password, and role.",
+        "type": "Functional",
+        "system_type": "General",
+        "submitted_by": "qq1234",
+        "timestamp": "2025-12-09 10:09:31",
+        "status": "approved",
+        "final_decision_reason": "Majority Voted Approve",
+        "votes": {
+            "approve": [
+                "admin",
+                "admin_mike",
+                "admin_lee"
+            ],
+            "reject": []
+        }
+    },
+    {
+        "id": "1004",
+        "text": "The system shall allow new users (students and tutors) to register by providing necessary details like name, email, password, and role",
+        "type": "Functional",
+        "system_type": "Education",
+        "submitted_by": "qq1234",
+        "timestamp": "2025-12-09 10:37:45",
+        "status": "rejected",
+        "final_decision_reason": "Time Expired",
+        "votes": {
+            "approve": [
+                "admin"
+            ],
+            "reject": [
+                "admin_mike"
+            ]
+        }
+    }
+]

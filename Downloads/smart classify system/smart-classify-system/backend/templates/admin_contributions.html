@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contributions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .col-container { display: flex; gap: 30px; } .col { flex: 1; }
+        .card-item { background: #fff; padding: 20px; border-radius: 12px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); border: 1px solid #f0f0f0; transition: 0.3s; }
+        .card-item:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+        .domain-badge { background: #F3F4F6; color: #666; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; margin-left: 8px; font-weight: 600; }
+        .vote-count { display: flex; gap: 15px; font-size: 0.9rem; font-weight: 600; margin-top: 10px; }
+        .vote-actions { display: flex; gap: 8px; }
+        .btn-sm { padding: 6px 12px; font-size: 0.85rem; width: auto; border-radius: 8px; }
+        .btn-approve { background: #10B981; color: white; }
+        .btn-reject { background: #EF4444; color: white; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo"><i class="fas fa-shield-alt"></i> Admin Panel</div>
+        <div class="nav-links">
+            <span>Logged as: <strong>{{ current_admin }}</strong></span>
+            <a href="{{ url_for('logout') }}" class="btn" style="background:var(--danger); padding:8px 15px; width:auto;">Log Out</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="glass-card" style="text-align: left; padding-top: 30px;">
+            
+            <div class="admin-header">
+                <div class="admin-nav">
+                    <a href="{{ url_for('admin_users') }}"><i class="fas fa-users"></i> Users</a>
+                    <a href="{{ url_for('admin_contributions') }}" class="active"><i class="fas fa-inbox"></i> Contributions</a>
+                    <a href="{{ url_for('admin_history') }}"><i class="fas fa-history"></i> History</a>
+                </div>
+                <a href="{{ url_for('admin_train_model') }}" class="btn" style="width: auto; font-size: 0.9rem; background: linear-gradient(135deg, #8B5CF6, #6D28D9);" onclick="return confirm('Retrain AI Model now?')">
+                    <i class="fas fa-sync-alt"></i> Retrain Model
+                </a>
+            </div>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+              {% if messages %}{% for category, message in messages %}<div class="alert alert-{{ category }}">{{ message }}</div>{% endfor %}{% endif %}
+            {% endwith %}
+
+            <div class="col-container">
+                <div class="col">
+                    <h3 style="color: #1F2937; margin-bottom: 20px;"><i class="fas fa-hourglass-half"></i> Pending Review</h3>
+                    {% for sub in submissions %}{% if sub.status == 'pending' %}
+                    <div class="card-item">
+                        <div style="display:flex; align-items:center; margin-bottom:8px;">
+                            <span style="font-weight:700; color:var(--primary);">{{ sub.type }}</span>
+                            <span class="domain-badge">{{ sub.system_type }}</span>
+                        </div>
+                        <p style="margin-bottom: 10px; font-size: 0.95rem; color:#374151;">{{ sub.text }}</p>
+                        <div style="font-size:0.8rem; color:#9CA3AF; margin-bottom:15px;">By: {{ sub.submitted_by }} • {{ sub.timestamp }}</div>
+                        
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div class="vote-count">
+                                <span style="color:#10B981;"><i class="fas fa-thumbs-up"></i> {{ sub.votes.approve|length }}</span>
+                                <span style="color:#EF4444;"><i class="fas fa-thumbs-down"></i> {{ sub.votes.reject|length }}</span>
+                            </div>
+                            <div class="vote-actions">
+                                <a href="{{ url_for('admin_vote', sub_id=sub.id, action='approve') }}" class="btn btn-sm btn-approve">Approve</a>
+                                <a href="{{ url_for('admin_vote', sub_id=sub.id, action='reject') }}" class="btn btn-sm btn-reject">Reject</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}{% endfor %}
+                </div>
+
+                <div class="col">
+                    <h3 style="color: #6B7280; margin-bottom: 20px;"><i class="fas fa-history"></i> Decision History</h3>
+                    <div style="max-height: 600px; overflow-y: auto; padding-right: 10px;">
+                        {% for sub in submissions %}{% if sub.status != 'pending' %}
+                        <div class="card-item" style="border-left: 4px solid {{ '#10B981' if sub.status=='approved' else '#EF4444' }}">
+                            <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                                <span style="font-weight:800; font-size:0.8rem; text-transform:uppercase; color:{{ '#10B981' if sub.status=='approved' else '#EF4444' }}">{{ sub.status }}</span>
+                                <span style="font-size:0.75rem; color:#ccc;">{{ sub.timestamp }}</span>
+                            </div>
+                            <p style="font-size:0.9rem; margin-bottom:5px;">{{ sub.text }}</p>
+                            <p style="font-size:0.8rem; color:#9CA3AF;">Result: {{ sub.final_decision_reason }}</p>
+                        </div>
+                        {% endif %}{% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
