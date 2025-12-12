@@ -1,0 +1,369 @@
+00:00:00.003373 main     VirtualBox COM Server 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:00.003378 main     Log opened 2025-01-05T19:18:16.305070700Z
+00:00:00.003378 main     Build Type: release
+00:00:00.003387 main     OS Product: Windows 11
+00:00:00.003388 main     OS Release: 10.0.22631
+00:00:00.003388 main     OS Service Pack: 
+00:00:00.031741 main     DMI Product Name: 82XF
+00:00:00.043905 main     DMI Product Version: IdeaPad Slim 5 16IRL8
+00:00:00.043925 main     Firmware type: UEFI
+00:00:00.045553 main     Secure Boot: Enabled
+00:00:00.045576 main     Host RAM: 16107MB (15.7GB) total, 2266MB (2.2GB) available
+00:00:00.045608 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.045608 main     Process ID: 75968
+00:00:00.045608 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.045613 main     Windows Features:
+00:00:00.045613 main       Core Isolation (Memory Integrity): Not supported
+00:00:00.221776          VirtualBox: object creation starts
+00:00:00.222013          Home directory: 'C:\Users\ngzhe\.VirtualBox'
+00:00:00.222134          Installed Drivers:
+00:00:00.226607            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.1.4.15100)
+00:00:00.226804            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.1.4.15100)
+00:00:00.226942            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.1.4.15100)
+00:00:00.227080            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.1.4.15100)
+00:00:00.231375          usbLibGetDevices: Starting USB device enumeration
+00:00:00.261772          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.265426          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.265536          USB: Unknown USB device detected (idVendor: 0x174f, idProduct: 0x181d)
+00:00:00.367798          HostDnsMonitor: initializing
+00:00:00.380506          HostDnsMonitor: updating information
+00:00:00.380545          HostDnsMonitor: old information
+00:00:00.380546            no server entries
+00:00:00.380547            no domain set
+00:00:00.380547            no search string entries
+00:00:00.380548          HostDnsMonitor: new information
+00:00:00.380548            server 1: 192.168.1.1
+00:00:00.380549            no domain set
+00:00:00.380549            no search string entries
+00:00:00.385743          VD: VDInit finished with VINF_SUCCESS
+00:00:00.387060          VirtualBox: object created
+00:00:00.482478          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.483895          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:00:00.484033          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.485095          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:00:00.485214          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.486287          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:00:00.976013          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.977426          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:00:01.019082          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.020768          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:00:01.595216          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.597089          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:12:28.643161 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:12:28.661299 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:12:28.663152 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:13:54.508684 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:54.529404 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:13:54.529652 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:13:54.530041 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:13:54.534283 USBPROXY USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0x4853)
+00:37:35.612017 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:37:35.615666 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:37:35.615896 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:37:35.616276 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:38:33.627097 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:38:33.667275 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:38:33.667494 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:38:33.667870 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:39:55.190966 dns-monitor HostDnsMonitor: updating information
+00:39:55.190998 dns-monitor HostDnsMonitor: unchanged
+00:47:40.605517 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:47:40.624349 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:47:40.624445 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:47:40.624641 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:48:46.135128 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:48:46.153850 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:48:46.155753 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:52:18.183724          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:52:18.185254          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:52:18.186457          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:52:18.187792          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:52:43.318972          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named '{00000000-0000-0000-0000-000000000000}'}, preserve=false aResultDetail=0
+00:53:07.117768 createBase Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:07.121765 createBase Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:07.135656          Platform architecture set to 'x86'
+00:53:07.137741          Platform architecture set to 'x86'
+00:53:07.137762          Platform architecture set to 'x86'
+00:53:07.140229          Platform architecture set to 'x86'
+00:53:07.147431          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:53:07.148934          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:53:07.149054          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:07.150338          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:07.155330          Platform architecture set to 'x86'
+00:53:07.158675          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:07.160317          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:07.161663          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:53:07.163413          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:53:07.195709          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:07.197404          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:07.690790          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:31.174167          Launched VM: 701658720 pid: 75844 (0x12844) frontend: GUI/Qt name: aaaa
+00:53:31.231434          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:39.454236          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:39.458442          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:39.482224          Platform architecture set to 'x86'
+00:53:39.709746          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:41.255618          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:53:41.373362          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:53:50.728948          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.730658          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:50.731506          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.733181          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:50.734128          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.737402          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:50.738290          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.740872          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:50.741983          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.744339          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:53:51.060288          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:53:51.088104          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:53:51.109852          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:53:51.189349          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:53:51.192816          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:53:51.196155          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:53:51.220868          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:53:51.961839          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:53:51.963207          HostDnsMonitorProxy::GetDomainName: no domain set
+00:53:51.963284          HostDnsMonitorProxy::GetNameServers:
+00:53:51.963299            name server 1: 192.168.1.1
+00:53:51.963371          HostDnsMonitorProxy::GetSearchStrings:
+00:53:51.963376            no search string entries
+00:53:52.006405          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:53:52.048448          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:54:06.974297          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:54:06.978098          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:54:07.011398          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:54:14.599074          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:54:14.600909          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:54:14.620554          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:54:58.350545          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:54:58.374398          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:55:00.070611          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:55:00.079753          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:55:01.254315          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:55:01.268998          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:55:02.650095          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:55:02.651817          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:55:02.793012          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:55:02.793937          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:55:02.894891          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:55:02.896673          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:55:02.919289          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:55:02.937332          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:55:02.999566          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:55:03.957886          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:55:36.092238          Platform architecture set to 'x86'
+00:55:36.097540          NvramStore: Loading 'TpmEmuTpms/permall' from archive
+00:55:36.097560          NvramStore: Loading 'efi/nvram' from archive
+00:55:36.497583          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:56:48.289943          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:48.294297          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:12.553382          Launched VM: 701658000 pid: 75740 (0x127dc) frontend: GUI/Qt name: aaaa
+00:57:12.627560          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:18.433702          Platform architecture set to 'x86'
+00:57:18.615437          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:20.200909          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:57:20.337568          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:57:22.044905          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:22.046610          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:22.049104          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:22.050751          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:22.054573          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:22.056222          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:23.984725          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:23.986776          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:30.576078          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:30.580209          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:30.599223          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:31.010220          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:31.012220          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:31.025986          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:31.263233          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:57:31.307831          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:57:31.329530          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:57:31.383264          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:57:32.187451          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:57:32.189635          HostDnsMonitorProxy::GetDomainName: no domain set
+00:57:32.189752          HostDnsMonitorProxy::GetNameServers:
+00:57:32.189764            name server 1: 192.168.1.1
+00:57:32.189873          HostDnsMonitorProxy::GetSearchStrings:
+00:57:32.189884            no search string entries
+00:57:32.214265          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:57:32.298291          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:57:33.726737          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:57:33.728280          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:57:33.766548          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:57:45.609103 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:57:45.682085 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&7f2d06b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:57:45.684900 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:57:50.715398          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:50.717168          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+00:57:50.717455          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:57:50.719233          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:57:50.719745          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:57:54.238515          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:58:11.497241          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:58:11.499549          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:58:11.547396          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:58:11.806667          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:58:11.810109          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:58:11.841002          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:58:15.393758          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:58:15.396453          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:58:15.408979          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:58:15.410964          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:58:15.421931          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:58:15.423725          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:58:15.469024          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:58:15.477964          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:58:15.481274          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:58:15.538363          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:59:46.704735          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:46.716828          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:59:51.421428          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:59:51.428613          Saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox" with version "1.19-windows"
+00:59:51.432036          Finished saving settings file "C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vbox"
+00:59:51.478750          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:51.526245          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:59:51.531727          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:59:51.539523          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:59:52.505539          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:59:55.069875          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:59:55.071652          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+01:02:09.741502 createBase Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:02:09.745360 createBase Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+01:02:09.763264          Platform architecture set to 'x86'
+01:02:09.763542          Platform architecture set to 'x86'
+01:02:09.763574          Platform architecture set to 'x86'
+01:02:09.764458          Platform architecture set to 'x86'
+01:02:09.766983          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:09.768757          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:09.768953          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:02:09.771926          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+01:02:09.775047          Platform architecture set to 'x86'
+01:02:09.777688          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:02:09.780850          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+01:02:09.783339          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:09.785744          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:09.794547          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+01:02:09.878222          Platform architecture set to 'x86'
+01:02:09.886739          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:02:09.888901          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+01:02:09.889008          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:02:09.890698          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+01:02:09.890915          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:09.893083          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:09.923290          Launched VM: 701900464 pid: 22716 (0x58bc) frontend: GUI/Qt name: test1
+01:02:09.955731          Saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:02:09.958229          Finished saving settings file "C:\Users\ngzhe\.VirtualBox\VirtualBox.xml"
+01:02:10.329006          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:10.353260          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:02:15.746220          Platform architecture set to 'x86'
+01:02:15.981606          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:15.993220          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:02:17.541573          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:02:17.675737          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:02:28.681224          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:28.688777          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:02:28.696014          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+01:02:28.715066          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:02:28.765243          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:02:28.768706          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:28.771790          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:28.785398          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:28.790746          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+01:02:29.468058          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:02:29.469083          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:02:29.469556          HostDnsMonitorProxy::GetDomainName: no domain set
+01:02:29.469591          HostDnsMonitorProxy::GetNameServers:
+01:02:29.469597            name server 1: 192.168.1.1
+01:02:29.469636          HostDnsMonitorProxy::GetSearchStrings:
+01:02:29.469639            no search string entries
+01:02:29.653632          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:02:29.746287          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:29.770240          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:02:32.349568          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:32.352400          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:32.373118          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:32.393330          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:02:54.070251          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:54.072014          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:54.097224          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:54.104194          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:02:54.523633          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:54.525872          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:54.551819          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:54.561239          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:02:55.556477          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:02:55.559473          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:02:55.592448          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:02:55.600966          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:04:00.333578          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:04:00.335645          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:04:00.363989          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:00.378186          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:04:04.330168          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:04.340594          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+01:04:04.403562          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:07.647184          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:04:07.664869          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:04:07.712971          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:07.760423          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:07.783137          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:07.800771          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+01:04:15.579786          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:04:15.581975          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:04:15.589755 SaveState Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:04:15.593959 SaveState Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:04:15.679300          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:15.747940          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:15.771219          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:04:17.112000          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:17.151614          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:04:33.851201          Launched VM: 703670480 pid: 52128 (0xcba0) frontend: GUI/Qt name: test1
+01:04:33.861028          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:33.869247          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:04:39.441105          Platform architecture set to 'x86'
+01:04:39.688623          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:39.705243          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:04:41.270389          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:04:41.414963          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:52.676798          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:52.681368          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:52.701010          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+01:04:52.720646          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+01:04:52.774364          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+01:04:53.480693          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:04:53.482107          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:04:53.483057          HostDnsMonitorProxy::GetDomainName: no domain set
+01:04:53.483101          HostDnsMonitorProxy::GetNameServers:
+01:04:53.483105            name server 1: 192.168.1.1
+01:04:53.483142          HostDnsMonitorProxy::GetSearchStrings:
+01:04:53.483145            no search string entries
+01:04:56.805921          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:04:56.848522          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:04:56.888661          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:04:56.957547          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:04:56.975267          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:05:22.116733          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+01:20:50.477156          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:20:50.478088          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:20:50.493311          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+01:20:54.107266          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:20:54.130492          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:20:54.234204          Saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox" with version "1.19-windows"
+01:20:54.237022          Finished saving settings file "C:\Users\ngzhe\Downloads\test1\test1.vbox"
+01:20:54.332220          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:20:54.342655          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:20:54.346218          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:20:54.355643          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:20:54.367204          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+01:20:55.291560          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:20:55.314329          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:21:03.772041 main     VirtualBox: object deletion starts
+01:21:03.772655 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\ngzhe\VirtualBox VMs\aaaa\aaaa.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:21:03.774996 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\ngzhe\Downloads\test1\test1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:21:03.778282 main     HostDnsMonitor: shutting down ...
+01:21:03.778712 main     HostDnsMonitor: shut down
+01:21:03.787054 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:21:03.787613 main     VirtualBox: object deleted
